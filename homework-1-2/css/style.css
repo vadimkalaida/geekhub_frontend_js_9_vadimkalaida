@@ -1,0 +1,18 @@
+.main_container {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main-headline {
+  font-size: 3.5vh;
+}
+
+.main-underheadline {
+  font-size: 2vh;
+}
+
+.about legend {
+  font-weight: 800;
+  font-size: 2vh;
+}
