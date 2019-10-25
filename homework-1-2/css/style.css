@@ -12,7 +12,87 @@
   font-size: 2vh;
 }
 
-.about legend {
+.about {
+  margin-bottom: 2vh;
+}
+
+legend {
   font-weight: 800;
+  font-size: 1.7vh;
+}
+
+.about-nameinputs {
+  width: 300px;
+}
+
+#name {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+#age {
+  width: 50px;
+}
+
+#youngMan {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.aboutmore_sitefrequency-headline {
   font-size: 2vh;
+}
+
+#siteFrequency {
+  width: 150px;
+}
+
+.aboutmore_books {
+  margin-bottom: 2vh;
+}
+
+.aboutmore_comments-headline {
+  margin-bottom: 0;
+}
+
+#comments {
+  width: 450px;
+  height: 200px;
+  margin-top: 0;
+  resize: none;
+  margin-bottom: 2vh;
+}
+
+#positions {
+  margin-bottom: 1.5vh;
+}
+
+.end {
+  margin-bottom: 2vh;
+}
+
+.end-inputs {
+  width: 250px;
+}
+
+#endInput1 {
+  margin-bottom: 2vh;
+}
+
+.end_spam h4 {
+  margin-bottom: 0;
+}
+
+.end_spam p {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.end-emaillabel {
+  font-weight: 800;
+}
+
+#submitBtn {
+  margin-bottom: 2vh;
+  cursor: pointer;
 }

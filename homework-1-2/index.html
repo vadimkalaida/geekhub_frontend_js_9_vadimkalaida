@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>homework-1-1</title>
+  <title>homework-1-2</title>
   <link rel="stylesheet" href="css/basic.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,9 +12,119 @@
     <div class="main_container">
       <h1 class="main-headline">Расскажите немного о себе...</h1>
       <p class="main-underheadline">Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.</p>
-      <fieldset class="about">
-        <legend>Коротко о себе</legend>
-      </fieldset>
+      <form action="#">
+        <fieldset class="about">
+          <legend>Коротко о себе</legend>
+            <label for="name">Имя:</label>
+            <input type="text" name="name" id="name" class="about-nameinputs" required><br>
+            <label for="lastName">Фамилия:</label>
+            <input type="text" name="lastName" id="lastName" class="about-nameinputs" required>
+            <p>Пол:
+              <input type="radio" name="pol" id="man" checked>
+              <label for="man">мужской</label>
+              <input type="radio" name="pol" id="woman">
+              <label for="woman">женский</label>
+            </p>
+            <label for="age">Возраст:</label>
+            <input type="number" name="age" id="age">
+        </fieldset>
+
+        <fieldset class="aboutmore">
+          <legend>Поднорбнее о себе</legend>
+          <input type="radio" name="human" id="youngMan" checked>
+          <label for="youngMan">Молодой человек</label><br>
+          <input type="radio" name="human" id="youngWoman">
+          <label for="youngWoman">Девушка</label><br>
+          <input type="text" name="dateOfBirthday" id="dateOfBirthday" required>
+          <label for="dateOfBirthday">Дата рождения</label><br>
+          <input type="text" name="famStatus" id="famStatus">
+          <label for="famStatus">Семейный статус</label><br>
+          <input type="text" name="socStatus" id="socStatus">
+          <label for="socStatus">Социальный статус</label><br>
+          <input type="text" name="home" id="home">
+          <label for="home">Местожительство</label>
+
+          <article class="aboutmore_weekend">
+            <h4>Что вы обычно делаете на выходных</h4>
+            <input type="checkbox" name="cb1" id="sleep">
+            <label for="sleep">Сплю</label><br>
+            <input type="checkbox" name="cb2" id="walk">
+            <label for="walk">Гуляю с друзьями</label><br>
+            <input type="checkbox" name="cb3" id="fish">
+            <label for="fish">Хожу на рыбалку</label><br>
+            <input type="checkbox" name="cb4" id="play">
+            <label for="play">Играю в игры</label><br>
+            <input type="checkbox" name="cb5" id="programming">
+            <label for="programming">Программирую</label>
+          </article>
+
+          <article class="aboutmore_sitefrequency">
+            <h4 class="aboutmore_sitefrequency-headline">Рассказать о формах в книге, посвященной HTML:</h4>
+            <select name="aboutmore_sitefrequency_select" id="siteFrequency">
+              <option value="siteFrequency1">Site frequency:</option>
+              <option value="siteFrequency2">Site frequency 2:</option>
+              <option value="siteFrequency3">Site frequency 3:</option>
+              <option value="siteFrequency4">Site frequency 4:</option>
+              <option value="siteFrequency5">Site frequency 5:</option>
+            </select>
+          </article>
+
+          <article class="aboutmore_books">
+            <h4>Сколько книг вы прочитали за свою жизнь:</h4>
+            <input type="radio" name="book" id="book1">
+            <label for="book1">0-10</label><br>
+            <input type="radio" name="book" id="book2">
+            <label for="book2">11-20</label><br>
+            <input type="radio" name="book" id="book3">
+            <label for="book1">21-50</label><br>
+            <input type="radio" name="book" id="book4">
+            <label for="book2">50+</label>
+          </article>
+
+          <article class="aboutmore_comments">
+            <h4 class="aboutmore_comments-headline">Ваши комментарии:</h4>
+            <textarea name="comments" id="comments"></textarea><br>
+            <select name="aboutmore_comments_select" id="positions">
+              <option value="position1">Первая позиция:</option>
+              <option value="position2">Вторая позиция:</option>
+              <option value="position3">Третья позиция:</option>
+            </select>
+          </article>
+
+        </fieldset>
+
+        <fieldset class="end">
+          <legend>И в заключении</legend>
+          <input type="text" name="end-inp1" id="endInput1" class="end-inputs" placeholder="Это поле было введено до вас" readonly><br>
+          <label for="email" class="end-emaillabel">Email:</label><br>
+          <input type="email" name="email" id="email" class="end-inputs" required>
+
+          <article class="end_spam">
+            <h4>Хотите подписаться на самую модную рассылку спама?</h4>
+            <p>Выберите категории</p>
+            <input type="checkbox" name="equipment" id="equipment">
+            <label for="equipment">Оборудование</label><br>
+            <input type="checkbox" name="cook" id="cook">
+            <label for="cook">Как приготовить обеды</label><br>
+            <input type="checkbox" name="earn" id="earn">
+            <label for="earn">Заработай миллион за два дня</label>
+          </article>
+
+          <article class="end_difficulty">
+            <h4>На сколько сложная задача:</h4>
+            <input type="radio" name="difficulty" id="difficulty1" checked>
+            <label for="difficulty1">Совсем нет</label><br>
+            <input type="radio" name="difficulty" id="difficulty2">
+            <label for="difficulty2">Так себе</label><br>
+            <input type="radio" name="difficulty" id="difficulty3">
+            <label for="difficulty3">Еле справился</label>
+          </article>
+
+        </fieldset>
+
+        <input type="submit" name="submitBtn" id="submitBtn" value="Отправить">
+        
+      </form>
     </div>
   </main>
 
