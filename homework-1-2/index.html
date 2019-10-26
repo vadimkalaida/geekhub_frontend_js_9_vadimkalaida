@@ -28,25 +28,33 @@
               <label for="woman">женский</label>
             </p>
             <label for="age">Возраст:</label>
-            <input type="number" name="age" id="age">
+            <input type="number" name="age" min="1" max="99" id="age">
         </fieldset>
 
         <fieldset class="aboutmore">
           <legend><strong>Поднорбнее о себе</strong></legend>
-          <p class="">
+          <p>
             <input type="radio" name="human" id="youngMan" checked>
-            <label for="youngMan">Молодой человек</label><br>
-            <input type="radio" name="human" id="youngWoman">
-            <label for="youngWoman">Девушка</label><br>
-            <input type="text" name="dateOfBirthday" id="dateOfBirthday" required>
-            <label for="dateOfBirthday">Дата рождения</label><br>
-            <input type="text" name="famStatus" id="famStatus">
-            <label for="famStatus">Семейный статус</label><br>
-            <input type="text" name="socStatus" id="socStatus">
-            <label for="socStatus">Социальный статус</label><br>
-            <input type="text" name="home" id="home">
-            <label for="home">Местожительство</label>
+            <label for="youngMan">Молодой человек</label>
           </p>
+          <p>
+            <input type="radio" name="human" id="youngWoman">
+            <label for="youngWoman">Девушка</label>
+          </p>
+          <p>
+            <input type="text" name="dateOfBirthday" id="dateOfBirthday" required>
+            <label for="dateOfBirthday">Дата рождения</label>
+          </p>
+          <p>
+            <input type="text" name="famStatus" id="famStatus">
+            <label for="famStatus">Семейный статус</label>
+          </p>
+          <p>
+            <input type="text" name="socStatus" id="socStatus">
+            <label for="socStatus">Социальный статус</label>
+          </p>
+          <input type="text" name="home" id="home">
+          <label for="home">Местожительство</label>
 
           <article class="aboutmore_weekend">
             <h4>Что вы обычно делаете на выходных</h4>
