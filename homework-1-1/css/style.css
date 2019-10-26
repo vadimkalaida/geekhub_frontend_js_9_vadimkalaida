@@ -11,11 +11,10 @@
 }
 
 .header-authors {
-  font-style: italic;
-  text-align: center;
   margin-top: 0;
   font-size: 2.7vh;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .header-smalltitle {
@@ -39,53 +38,10 @@
 
 .article-paragraph {
   font-size: 2.4vh;
-  line-height: 26px;
-}
-
-.article1-paragraph1 {
-  font-weight: 800;
-  font-size: 2.4vh;
-  line-height: 26px;
-  margin-top: 0;
-}
-
-.article1-paragraph2 {
-  font-size: 2.4vh;
-  line-height: 26px;
 }
 
 .article1-paragraph3 {
-  font-size: 2.4vh;
-  line-height: 26px;
-  font-style: italic;
   text-align: center;
-}
-
-.article2-paragraph1 {
-  margin-top: 0;
-}
-
-.article2-paragraph1 span {
-  text-decoration: underline;
-}
-
-.article2-paragraph2 span {
-  font-weight: 800;
-}
-
-.article2-paragraph4 {
-  margin-bottom: 15px;
-  font-size: 2.4vh;
-  line-height: 26px;
-}
-
-.article2-paragraph4-span1 {
-  font-weight: 800;
-}
-
-.article2-paragraph4-span2 {
-  font-style: italic;
-  text-decoration: underline;
 }
 
 .article3 {
@@ -102,25 +58,14 @@
   padding-right: 20px;
 }
 
-.article3-paragraph2 {
-  font-weight: 800;
-  font-style: italic;
-}
-
-.article4 {
-  width: 100%;
-}
 .article4-paragraph1 {
   text-align: right;
-  font-style: italic;
   margin-bottom: 40px;
 }
 
 .article4-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
+  margin: 0 auto;
 }
 
 .article4-paragraph3 {
@@ -128,30 +73,15 @@
 }
 
 .article4_ul {
-  margin-top: 0;
   margin-bottom: 70px;
 }
 
-.article4_ul-li {
+.article4-li {
   font-size: 2.4vh;
-  line-height: 26px;
-}
-
-.article4_ol {
-  margin-top: 0;
-}
-
-.article4_ol-li {
-  font-size: 2.4vh;
-  line-height: 26px;
 }
 
 @media(min-width: 320px) and (max-width: 630px) {
-  .article3-img {
-    width: 100%;
-    height: 100%;
-  }
-  .article4-img {
+  .img {
     width: 100%;
     height: 100%;
   }

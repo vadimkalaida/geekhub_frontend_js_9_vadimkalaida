@@ -16,11 +16,6 @@
   margin-bottom: 2vh;
 }
 
-legend {
-  font-weight: 800;
-  font-size: 1.7vh;
-}
-
 .about-nameinputs {
   width: 300px;
 }
@@ -84,12 +79,7 @@ legend {
 }
 
 .end_spam p {
-  font-style: italic;
   margin-top: 0;
-}
-
-.end-emaillabel {
-  font-weight: 800;
 }
 
 #submitBtn {
