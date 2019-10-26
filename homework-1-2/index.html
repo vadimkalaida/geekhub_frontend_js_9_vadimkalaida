@@ -15,8 +15,10 @@
       <form action="#">
         <fieldset class="about">
           <legend><strong>Коротко о себе</strong></legend>
-            <label for="name">Имя:</label>
-            <input type="text" name="name" id="name" class="about-nameinputs" required><br>
+            <p>
+              <label for="name">Имя:</label>
+              <input type="text" name="name" id="name" class="about-nameinputs" required>
+            </p>
             <label for="lastName">Фамилия:</label>
             <input type="text" name="lastName" id="lastName" class="about-nameinputs" required>
             <p>Пол:
@@ -31,31 +33,43 @@
 
         <fieldset class="aboutmore">
           <legend><strong>Поднорбнее о себе</strong></legend>
-          <input type="radio" name="human" id="youngMan" checked>
-          <label for="youngMan">Молодой человек</label><br>
-          <input type="radio" name="human" id="youngWoman">
-          <label for="youngWoman">Девушка</label><br>
-          <input type="text" name="dateOfBirthday" id="dateOfBirthday" required>
-          <label for="dateOfBirthday">Дата рождения</label><br>
-          <input type="text" name="famStatus" id="famStatus">
-          <label for="famStatus">Семейный статус</label><br>
-          <input type="text" name="socStatus" id="socStatus">
-          <label for="socStatus">Социальный статус</label><br>
-          <input type="text" name="home" id="home">
-          <label for="home">Местожительство</label>
+          <p class="">
+            <input type="radio" name="human" id="youngMan" checked>
+            <label for="youngMan">Молодой человек</label><br>
+            <input type="radio" name="human" id="youngWoman">
+            <label for="youngWoman">Девушка</label><br>
+            <input type="text" name="dateOfBirthday" id="dateOfBirthday" required>
+            <label for="dateOfBirthday">Дата рождения</label><br>
+            <input type="text" name="famStatus" id="famStatus">
+            <label for="famStatus">Семейный статус</label><br>
+            <input type="text" name="socStatus" id="socStatus">
+            <label for="socStatus">Социальный статус</label><br>
+            <input type="text" name="home" id="home">
+            <label for="home">Местожительство</label>
+          </p>
 
           <article class="aboutmore_weekend">
             <h4>Что вы обычно делаете на выходных</h4>
-            <input type="checkbox" name="cb1" id="sleep">
-            <label for="sleep">Сплю</label><br>
-            <input type="checkbox" name="cb2" id="walk">
-            <label for="walk">Гуляю с друзьями</label><br>
-            <input type="checkbox" name="cb3" id="fish">
-            <label for="fish">Хожу на рыбалку</label><br>
-            <input type="checkbox" name="cb4" id="play">
-            <label for="play">Играю в игры</label><br>
-            <input type="checkbox" name="cb5" id="programming">
-            <label for="programming">Программирую</label>
+            <p>
+              <input type="checkbox" name="cb1" id="sleep">
+              <label for="sleep">Сплю</label>
+            </p>
+            <p>
+              <input type="checkbox" name="cb2" id="walk">
+              <label for="walk">Гуляю с друзьями</label>
+            </p>
+            <p>
+              <input type="checkbox" name="cb3" id="fish">
+              <label for="fish">Хожу на рыбалку</label>
+            </p>
+            <p>
+              <input type="checkbox" name="cb4" id="play">
+              <label for="play">Играю в игры</label>
+            </p>
+            <p>
+              <input type="checkbox" name="cb5" id="programming">
+              <label for="programming">Программирую</label>
+            </p>
           </article>
 
           <article class="aboutmore_sitefrequency">
@@ -71,12 +85,18 @@
 
           <article class="aboutmore_books">
             <h4>Сколько книг вы прочитали за свою жизнь:</h4>
-            <input type="radio" name="book" id="book1">
-            <label for="book1">0-10</label><br>
-            <input type="radio" name="book" id="book2">
-            <label for="book2">11-20</label><br>
-            <input type="radio" name="book" id="book3">
-            <label for="book1">21-50</label><br>
+            <p>
+              <input type="radio" name="book" id="book1">
+              <label for="book1">0-10</label>
+            </p>
+            <p>
+              <input type="radio" name="book" id="book2">
+              <label for="book2">11-20</label>
+            </p>
+            <p>
+              <input type="radio" name="book" id="book3">
+              <label for="book1">21-50</label>
+            </p>
             <input type="radio" name="book" id="book4">
             <label for="book2">50+</label>
           </article>
@@ -101,21 +121,29 @@
 
           <article class="end_spam">
             <h4>Хотите подписаться на самую модную рассылку спама?</h4>
-            <p><em>Выберите категории</em></p>
-            <input type="checkbox" name="equipment" id="equipment">
-            <label for="equipment">Оборудование</label><br>
-            <input type="checkbox" name="cook" id="cook">
-            <label for="cook">Как приготовить обеды</label><br>
+            <p class="end_spam-category"><em>Выберите категории</em></p>
+            <p class="end_spam-category1">
+              <input type="checkbox" name="equipment" id="equipment">
+              <label for="equipment">Оборудование</label>
+            </p>
+            <p>
+              <input type="checkbox" name="cook" id="cook">
+              <label for="cook">Как приготовить обеды</label>
+            </p>
             <input type="checkbox" name="earn" id="earn">
             <label for="earn">Заработай миллион за два дня</label>
           </article>
 
           <article class="end_difficulty">
             <h4>На сколько сложная задача:</h4>
-            <input type="radio" name="difficulty" id="difficulty1" checked>
-            <label for="difficulty1">Совсем нет</label><br>
-            <input type="radio" name="difficulty" id="difficulty2">
-            <label for="difficulty2">Так себе</label><br>
+            <p>
+              <input type="radio" name="difficulty" id="difficulty1" checked>
+              <label for="difficulty1">Совсем нет</label>
+            </p>
+            <p>
+              <input type="radio" name="difficulty" id="difficulty2">
+              <label for="difficulty2">Так себе</label>
+            </p>
             <input type="radio" name="difficulty" id="difficulty3">
             <label for="difficulty3">Еле справился</label>
           </article>

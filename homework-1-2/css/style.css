@@ -20,9 +20,9 @@
   width: 300px;
 }
 
-#name {
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+.aboutmore p {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 #age {
@@ -78,8 +78,9 @@
   margin-bottom: 0;
 }
 
-.end_spam p {
+.end p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 #submitBtn {
